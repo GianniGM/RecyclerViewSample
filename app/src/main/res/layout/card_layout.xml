@@ -19,7 +19,17 @@
         android:layout_width="match_parent"
         android:id="@+id/beer_name"
         android:textAlignment="gravity"
-        android:layout_height="100dp" />
+        android:layout_height="match_parent"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="24dp"
+        android:textSize="24sp"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
 
 
 </LinearLayout>
